@@ -22,17 +22,8 @@ from CDEVisualizer import CDEVisualizer
 
 warnings.filterwarnings('ignore')
 
-# ============================================================================
-# CONFIGURACIÓN - AJUSTA ESTA SECCIÓN SEGÚN TU ENTORNO
-# ============================================================================
+# CONFIGURACIÓN
 
-# Opción 1: Ruta relativa (archivo en el mismo directorio que el script)
-# FILE_PATH = "CDE.xlsx"
-
-# Opción 2: Ruta absoluta (descomenta y ajusta si es necesario)
-# FILE_PATH = "/Users/tuusuario/Desktop/CDE.xlsx"
-
-# Opción 3: En subdirectorio (descomenta si tu archivo está en una carpeta)
 FILE_PATH = "datasets/CDE.xlsx"
 
 # Directorio de salida para resultados

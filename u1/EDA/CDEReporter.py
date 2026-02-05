@@ -54,7 +54,7 @@ class CDEReporter:
                 values = list(status_totals.values())
                 diff = abs(values[0] - values[1])
                 pct_diff = (diff / min(values)) * 100
-                report.append(f"\n💡 Diferencia: {diff:.2f} hrs ({pct_diff:.1f}%)")
+                report.append(f"\n Diferencia: {diff:.2f} hrs ({pct_diff:.1f}%)")
 
         # App líder por OS
         if 'Sistema_Operativo' in self.df.columns:

@@ -1,4 +1,3 @@
-import pandas as pd
 import warnings
 from datetime import datetime
 from typing import List
@@ -152,11 +151,11 @@ class CDEDataCleaner:
 
     def _generate_cleaning_report(self):
         """Genera y muestra el reporte de limpieza."""
-        print("\n📋 REPORTE DE LIMPIEZA:")
+        print("\n REPORTE DE LIMPIEZA:")
         print("─" * 80)
         for log in self.cleaning_log:
             print(f"   {log}")
-        print(f"\n✅ RESULTADO FINAL:")
+        print(f"\n RESULTADO FINAL:")
         print(f"   • Registros válidos: {len(self.df)}")
         print(f"   • Columnas útiles: {len(self.df.columns)}")
         print(f"   • Columnas: {list(self.df.columns)}")
